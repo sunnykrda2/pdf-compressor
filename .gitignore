@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Production build outputs
+dist/
+frontend/dist/
+
+# Ephemeral storage & test PDFs
+backend/temp_storage/
+backend/test_storage/
+*.pdf
+test_compressed.pdf
+clean_test.pdf
+clean_pike.pdf
+client_compressed_test.pdf
+
+# Environment & logs
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
